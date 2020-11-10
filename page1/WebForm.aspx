@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="page1.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm.aspx.cs" Inherits="page1.WebForm" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   <style>
+    <style>
        body{
            background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(apple_computer_laptop_mug_tables_desk.jpg);
 	height: 100vh;
@@ -14,7 +14,7 @@
    </style>
 </head>
 <body>
-    <center><form id="form1" runat="server">
+             <center><form id="form2" runat="server">
         <div class="btn">
             <asp:Label ID="Label1" runat="server" Text="اكتب النص هنا يظهر في الاسفل"></asp:Label>
             <br />

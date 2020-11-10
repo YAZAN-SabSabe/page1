@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace page1
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -45,4 +40,4 @@ namespace page1
 
         }
     }
-}
+    }
