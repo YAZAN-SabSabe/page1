@@ -70,6 +70,7 @@
     <Content Include="img\32.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm.aspx" />
+    <Content Include="WebForm5.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +80,13 @@
     </Compile>
     <Compile Include="WebForm.aspx.designer.cs">
       <DependentUpon>WebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
