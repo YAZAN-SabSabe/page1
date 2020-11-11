@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace page1
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm5 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,6 +16,7 @@ namespace page1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
             TextBox2.Text = TextBox1.Text;
             if (CheckBox1.Checked == false)
             {

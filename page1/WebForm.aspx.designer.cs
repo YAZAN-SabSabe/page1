@@ -10,7 +10,7 @@
 namespace page1 {
     
     
-    public partial class WebForm1 {
+    public partial class WebForm {
         
         /// <summary>
         /// form2 control.

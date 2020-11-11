@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="page1.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm.aspx.cs" Inherits="page1.WebForm" %>
 
 <!DOCTYPE html>
 
@@ -14,7 +14,7 @@
    </style>
 </head>
 <body>
-    <center><form id="form2" runat="server">
+             <center><form id="form2" runat="server">
         <div class="btn">
             <asp:Label ID="Label1" runat="server" Text="اكتب النص هنا يظهر في الاسفل"></asp:Label>
             <br />
